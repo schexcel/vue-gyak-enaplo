@@ -14,6 +14,13 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
+        //valamint a megfelelő sorrendben hivatkozzon rájuk a DatabaseSeeder.php fájlban.
+
+        $this->call([
+            StudentSeeder::class,
+            GradeSeeder::class
+        ]);
+
 
         User::factory()->create([
             'name' => 'Test User',

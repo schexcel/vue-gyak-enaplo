@@ -129,6 +129,7 @@
       <path value="$PROJECT_DIR$/ENaploBackend/vendor/composer" />
       <path value="$PROJECT_DIR$/ENaploBackend/vendor/nunomaduro/termwind" />
       <path value="$PROJECT_DIR$/ENaploBackend/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/ENaploBackend/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
