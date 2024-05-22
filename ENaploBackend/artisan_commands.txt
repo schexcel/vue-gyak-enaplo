@@ -1,0 +1,35 @@
+php artisan install:api
+
+MAKE utasítások
+
+artisan make:model [Model neve] --migration
+	artisan make:migration [create|update]_[tablename (többesszám)]_table_[]
+	artisan make:model [Model neve, 1es szám!]
+	
+artisan make:seeder [Model neve]Seeder
+	
+artisan make:controller [Valami]Controller
+artisan make:controller [Model/Valami]Controller --resource
+artisan make:controller [Model/Valami]Controller --resource --model=[Model]
+artisan make:controller [Model/Valami]Controller --resource -requests --model=[Model]
+
+artisan make:request [Model]CreateRequest
+
+artisan make:resource [Model]Resource
+
+artisan make:middleware [Name]Middlwere
+	
+artisan make:command [CommandName]
+
+DATABASE STRUCTURE
+artisan migrate
+artisan migrate:refresh
+
+DATABASE DATA
+artisan db:seed
+
+ROUTEok listázása
+artisan route:list
+
+APP Futtatása BUILD SERVER
+artisan serve
