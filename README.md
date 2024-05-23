@@ -29,7 +29,7 @@ DB_CONNECTION=mysql
 
 ```0:30:10```
 
-6. Ha már az env fájlban beállítottuk a MySQL szerver hozzáférést, és fut a MySQL szerver és kiadjuk a: ```php artisan migrate``` parancsot, és nyomunk egy YES-t, akkor megcsinálja nekunk az adatbázist!
+6. Ha már az env fájlban beállítottuk a MySQL szerver hozzáférést, és fut a MySQL szerver és kiadjuk a CLI: ```php artisan migrate``` parancsot, és nyomunk egy YES-t, akkor megcsinálja nekunk az adatbázist!
 (Ha így nem meg, csinálj egy adatbázist ```enaplo``` néven, pl. php myadninnal ```http://localhost/phpmyadmin/```  vagy heide-val.)
 7. ellenőrizd pl. a ```http://localhost/phpmyadmin/``` -al, hogy lett-e adatbáis!
 
@@ -52,7 +52,7 @@ DB_CONNECTION=mysql
 		- comment: szöveg, 50 karakter, az értékelés magyarázata
 ```
 ```0:42:54```
-8. Parancssorból adjuk ki a: ```php artisan make:model Student --controller --resource --requests --migration```
+8. Parancssorból adjuk ki a: CLI ```php artisan make:model Student --controller --resource --requests --migration```
 Ekkor létrejön a:
 ```
 c:\vue-gyak-enaplo\ENaploBackend\app\Models\Student.php
